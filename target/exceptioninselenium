@@ -1,0 +1,2 @@
+1- SessionMotCreatedException-When browser failed to start(means-your have less memory)
+InvalidArgumentException- When no http or https is provided.

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <title>This is title</title>
+  </head>
+  <body>
+    <p>This is the selenium course</p>
+    <h1>Selenium</h1>
+    <h2>Cypress</h2>
+    <h3>Playwright</h3>
+    <h4>WDIO</h4>
+    <h5>Micro</h5>
+    <h6>Others</h6>
+
+    <input type="text" id="name" placeholder="Enter your name" />
+    <br />
+    <br />
+    <input type="radio" />
+    <input type="radio" />
+    <br />
+    <br />
+    <input type="checkbox" />
+    <input type="checkbox" />
+    <br />
+    <br />
+    <input type="submit" />
+
+    <br />
+    <br />
+    <table border="4" bgcolor="yellow">
+      <tbody>
+        <tr>
+          <td>Selenium</td>
+          <td>Cypress</td>
+          <td>Playwright</td>
+        </tr>
+        <tr>
+          <td>Selenium 1</td>
+          <td>Selenium 2</td>
+          <td>Selenium 3</td>
+          <td>Selenium 4</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+    <ul>
+      <!--unorderlist-->
+      <li>Automation 1</li>
+      <li>Automation 2</li>
+      <li>Automation 3</li>
+      <li>Automation 4</li>
+    </ul>
+    <br />
+    <br />
+    <ol>
+      <!--orderlist-->
+      <li>Shubham</li>
+      <li>Arpit</li>
+      <li>Himanshu</li>
+      <li>Anshu</li>
+    </ol>
+    <br />
+    <br />
+    <a href="https//www.google.com">Click on the link</a>
+    <br />
+    <br />
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOi0mWLRO2c4favdUBtcHm8KiB9pAtWnkihu4-e8nY0g&s"
+    />
+    <br />
+    <br />
+    <button type="submit">Login</button>
+  </body>
+</html>
+
+xpath
+1. Absolute /
+2. Relative //
+
+
+
+
+Relative Path  
+Synatx 1. finding web-element with tagname
+//a find all link
+//img find all image
+//tagname find all tag name
+//input find all input
+//select
+//span
+//button
+
+2. Find web-element with attribute and value
+//tagname[@attribute='value'] e.g. //input[@id='email']
+//tagname[@attribute="value"] e.g. //input[@id="email"] for multiple strings use double quotes
+//
+
+3. Find the web-element with And and OR
+//tagname[@attribute='value1' and @attribute='value2']
+
+//tagname[@attribute='value1' or @attribute='value2']
+
+
+4. Index based xpath find links
+(xpath)[index]
+(//a)[0]    -> isse pta chlta hai ki konsa link kis possition pe hai
+
+5. contains function
+//tagname[contains(@attribute,'value')]
+//a[contains(@href,'signup')]
+
+6. text() function
+//tagname[text()='text to find']
+//a[text()='test']
+//*[text()='conncet'] * means consider all the tag present in webpage
+
+7. New user? signup
+New user? join us
+New user? creatre a new account
+text fubction with contains
+//tagname[contains(text(),'text which you are looking for')]
+//a[contains(text(),'xyz')]
+
+what is diiference between 
+//a[text()='xyz']
+     vs
+//a[normalize-space()='xyz']
