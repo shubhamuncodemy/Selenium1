@@ -3,7 +3,7 @@
 
 <suite name="Automation-suite">
 
-  <test name="Regressiontest">
+  <test name="Regression">
 
     <classes>
       <class name="xpath.TestNG"/>
