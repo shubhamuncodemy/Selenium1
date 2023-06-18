@@ -6,5 +6,5 @@
       <class name="xpath.TestNG"/>
       <class name="xpath.MyFirstTestNG"/>
     </classes>
-  </test> <!-- Test -->
+  </test <!-- Test -->
 </suite> <!-- Suite -->
